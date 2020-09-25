@@ -16,3 +16,32 @@ header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
 }
+
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  font-family: Patua One, Georgia;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+body {
+  line-height: 1.5;
+  color: #000;
+}
+
+figure figcaption h2 {
+  color: #30658d;
+  font-family: Patua One, Georgia;
+  font-size: 2rem;
+}
+
+.logo {
+  position: absolute;
+  z-index: 1;
+}
+
+.pano {
+  display: grid;
+
+}
