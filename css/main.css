@@ -19,7 +19,10 @@ header {
 
 nav ul li a {
   display: inline-block;
+  align-items: flex-end;
   color: #fff;
+  position: absolute;
+  z-index: auto;
   font-family: Patua One, Georgia;
   font-size: 2rem;
   text-decoration: underline;
@@ -42,6 +45,23 @@ figure figcaption h2 {
 }
 
 .pano {
+
+
+}
+
+figure {
+
+
+}
+
+header {
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
 }
